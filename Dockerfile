@@ -1,4 +1,4 @@
-FROM ruby:2.3
+FROM ruby:2.3.0
 
 WORKDIR /opt
 RUN curl -Ls https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2 | tar -jxf -
