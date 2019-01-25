@@ -20,3 +20,7 @@ cucumber:
 production:
   <<: *default
   url: <%= ENV['DATABASE_URL'] %>
+  host: <%= ENV['DATABASE_HOSTNAME'] %>
+  username: <%= ENV['DATABASE_USERNAME'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  database: spectre
